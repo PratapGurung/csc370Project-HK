@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">SoftEngProj</string>
+    <string name="title_activity_firstName">First Name</string>
+    <string name="title_activity_second_name">Second Name</string>
+    <string name="title_activity_password">Password</string>
+    <string name="title_activity_phone_number">Phone Number</string>
+    <string name="title_activity_email">Email</string>
+</resources>

@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+          package="com.example.pratapgurung.softengproj">
+
+    <application
+            android:allowBackup="true"
+            android:icon="@mipmap/ic_launcher"
+            android:label="@string/app_name"
+            android:roundIcon="@mipmap/ic_launcher_round"
+            android:supportsRtl="true"
+            android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+        <activity
+                android:name=".firstName"
+                android:label="@string/title_activity_firstName"
+                android:parentActivityName=".MainActivity"
+                android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                    android:name="android.support.PARENT_ACTIVITY"
+                    android:value="com.example.pratapgurung.softengproj.MainActivity"/>
+        </activity>
+        <activity
+                android:name=".secondName"
+                android:label="@string/title_activity_second_name"
+                android:parentActivityName=".MainActivity"
+                android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                    android:name="android.support.PARENT_ACTIVITY"
+                    android:value="com.example.pratapgurung.softengproj.MainActivity"/>
+        </activity>
+        <activity
+                android:name=".password"
+                android:label="@string/title_activity_password"
+                android:parentActivityName=".MainActivity"
+                android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                    android:name="android.support.PARENT_ACTIVITY"
+                    android:value="com.example.pratapgurung.softengproj.MainActivity"/>
+        </activity>
+        <activity
+                android:name=".phoneNumber"
+                android:label="@string/title_activity_phone_number"
+                android:parentActivityName=".MainActivity"
+                android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                    android:name="android.support.PARENT_ACTIVITY"
+                    android:value="com.example.pratapgurung.softengproj.MainActivity"/>
+        </activity>
+        <activity
+                android:name=".email"
+                android:label="@string/title_activity_email"
+                android:parentActivityName=".MainActivity"
+                android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                    android:name="android.support.PARENT_ACTIVITY"
+                    android:value="com.example.pratapgurung.softengproj.MainActivity"/>
+        </activity>
+    </application>
+
+</manifest>
